@@ -1,0 +1,44 @@
+---
+title: "Happier version control with Git and GitHub"
+subtitle: "(and Rstudio)"
+author: "Byron C. Jaeger"
+institute: "Wake Forest Baptist Medical"
+date: "2021-09-28 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(echo = FALSE)
+
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1E6B52",
+  secondary_color = "#000000",
+  inverse_header_color = "#CFC580"
+)
+
+```
+
+background-image: url(img/git_logo.png)
+background-position: 95% 2.5%
+background-size: 10%
+layout: true
+
+GIT
+
+---
+
+
+
+
+---
+
