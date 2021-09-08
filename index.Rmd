@@ -12,6 +12,8 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: inverse, center, middle
+
 
 ```{r setup, include=FALSE}
 
@@ -28,17 +30,127 @@ style_duo_accent(
 
 ```
 
-background-image: url(img/git_logo.png)
-background-position: 95% 2.5%
-background-size: 10%
-layout: true
-
-GIT
+# DISCLAIMER
 
 ---
 
+# 1. Presentation is unoriginal
 
+I am recycling materials from:
 
+--
+
+- Alice Bartlett: [Git for humans, 2016](https://speakerdeck.com/alicebartlett/git-for-humans) (slides)
+
+--
+
+- Jenny Bryan:
+
+    + [Rstudio::conf 2017](https://www.rstudio.com/resources/rstudioconf-2017/happy-git-and-gihub-for-the-user-tutorial/) (full tutorial with demos)
+    
+    + [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159v2/) (article)
+    
+    + [useR! 2019](https://www.youtube.com/watch?v=ZCeBnQBQ1h8) (quick tutorial with demo; see 10:44 - 14:35)
+    
+    + [Happy Git with R, 2021](https://happygitwithr.com/) (full textbook)
+    
+<br>
+
+--
+
+Why? Because these materials are _fantastic_. Don't re-invent the wheel.
 
 ---
+
+# 2. I am no expert
+
+- I have used git and GitHub for years, and I am incredibly grateful for it.
+
+- But I am only familiar with the basics.
+
+- $\Rightarrow$ _anyone_ can learn the basics and benefit from it.
+
+---
+class: inverse, center, middle
+
+# GIT
+
+---
+background-image: url(img/Linus_Torvalds_1.jpg)
+class: left, top, inverse
+
+# Who<br>made<br>git?
+
+???
+
+Git is a version control system written by Linus Torvalds, who is also known for developing Linux.
+
+Git was designed in part to help manage development of the Linux kernel, which is probably very different from what myself and other data scientists use it for.
+
+For data scientists, git seems to have 10 times more tools than we need, and also seems to be missing some important tools that we really want. 
+
+Strangely enough, git is still our best option for version control.
+
+---
+
+# Git for data science
+
+Git has been 'repurposed' by data scientists for managing activities other than software development.
+
+- writing code to clean, merge, reshape, or analyze data (wrangling).
+
+    + [My NHANES starter kit](https://github.com/bcjaeger/NHANES-starter-kit)
+
+- writing blogs, books, or scientific articles in an open setting.
+
+    + [R for Data Science by Hadley Wickham](https://github.com/hadley/r4ds)
+    
+    + [Advanced R by Hadley Wickham](https://github.com/hadley/adv-r)
+
+- sharing an "end-to-end" project in an open setting.
+
+    + [INTERMACS ML imputation](https://github.com/bcjaeger/INTERMACS-imputation-ML)
+    
+- sharing highly relevant data sets:
+
+    + [NY Times COVID-19 data](https://github.com/nytimes/covid-19-data)
+
+Git is without any doubt the best system for _collaboration_.
+
+???
+
+Its hard to justify the benefit of git if you work alone, but if you work with other data scientists you will feel a great joy from using git. 
+
+Managing the motley crew of files that go along with data science is incredibly hard using standard conventions. If you use the rigid structure of git to manage those files, you will win a lot of battles just by design.
+
+Don't get too worried about public repositories. There are suitable remotes with privacy, like GitLab instead of GitHub.
+
+---
+background-image: url(img/Linus_Torvalds_2.jpg)
+background-size: 100%
+class: left, middle, inverse
+
+# How it<br>feels to <br>use git
+
+(sometimes...)
+
+???
+
+It may seem like this is how Linus feels about git users because the interface is difficult to learn. 
+
+---
+background-image: url(img/github_account_1.png)
+
+# Where to start?
+
+---
+background-image: url(img/github_account_2.png)
+background-size: 80%
+
+
+
+
+
+
+
 
