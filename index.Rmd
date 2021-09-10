@@ -148,11 +148,57 @@ background-image: url(img/github_account_2.png)
 background-size: 75%
 
 ---
-
+layout: true
+background-size: 75%
+background-position: 40% 65%
 # Make a pull request
+---
+background-image: url(img/github_account_3.png)
+
+Go to [my GitHub](https://github.com/bcjaeger)
 
 ---
+background-image: url(img/github_account_4.png)
 
+Click 'Repositories' near the top of the page
+
+---
+background-image: url(img/github_account_5.png)
+
+Search for 'seminar-git' (it may be at the top of the list already)
+
+---
+background-image: url(img/github_account_6.png)
+
+Click on the 'seminar-git' repository
+
+---
+background-image: url(img/github_account_7.png)
+
+Click on the index.Rmd file (code that made this presentation)
+
+---
+layout: false
+class: center, middle
+```{r}
+
+exclamation <- c("WOOOOOO",
+                 "Hurray",
+                 "Yay",
+                 "YeeHAW")
+
+adjective <- c("Awesome",
+               "Snazzy",
+               "Outstanding",
+               "Terrific")
+
+```
+
+# `r sample(exclamation, 1)`! 
+
+## You completed your first pull request!
+
+# `r sample(adjective, 1)` work!
 
 
 
