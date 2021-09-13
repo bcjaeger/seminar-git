@@ -188,7 +188,7 @@ exclamation <- c("WOOOOOO",
                  "YeeHAW")
 
 adjective <- c("Awesome",
-               'great',
+               "Great",
                "Snazzy",
                "Outstanding",
                "Terrific")
