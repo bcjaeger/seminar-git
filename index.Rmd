@@ -195,6 +195,7 @@ adjective <- c("Awesome",
                "Great",
                "Snazzy",
                "Outstanding",
+               "Amazing",
                "Terrific")
 
 ```
