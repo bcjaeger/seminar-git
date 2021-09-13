@@ -139,6 +139,13 @@ class: left, middle, inverse
 It may seem like this is how Linus feels about git users because the interface is difficult to learn. 
 
 ---
+class: middle, center
+
+# [But then why use it?](https://speakerdeck.com/alicebartlett/git-for-humans?slide=19)
+
+.footnote[clicking the link on this slide should take you to Alice Bartlett's talk: Git for Humans, slide 19]
+
+---
 background-image: url(img/github_account_1.png)
 background-position: 50% 70%
 
@@ -181,6 +188,52 @@ background-image: url(img/github_account_7.png)
 Click on the index.Rmd file (code that made this presentation)
 
 ---
+background-image: url(img/github_account_8.png)
+
+Click the pencil to fork the project and edit this file in your own branch.
+
+---
+background-image: url(img/github_account_9.png)
+
+If you see a screen like this, you are in the right place!
+
+---
+
+If you don't have that screen, don't worry. By clicking the pencil, 
+
+- you have created a copy of this repo on your profile
+
+- you have created a new branch of the repo within your profile's copy.
+
+- you can navigate to it by going to your profile.
+
+- (I will demo this if there is time)
+
+---
+background-image: url(img/github_account_10.png)
+
+Scroll down in the code until you see this text.
+
+---
+background-image: url(img/github_account_11.png)
+
+Add your own adjectives and exclamations. Remember that your name is attached to what you write...
+
+---
+background-image: url(img/github_account_12.png)
+
+Give your pull request a title and, if needed, a description. 
+Click propose changes to continue (not done yet).
+
+
+---
+background-image: url(img/github_account_13.png)
+
+Review your pull request before clicking 'create pull request'
+
+
+---
+
 layout: false
 class: center, middle
 ```{r}
