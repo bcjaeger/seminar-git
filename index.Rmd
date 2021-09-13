@@ -140,8 +140,11 @@ It may seem like this is how Linus feels about git users because the interface i
 
 ---
 background-image: url(img/github_account_1.png)
+background-position: 50% 70%
 
 # Where to start?
+
+Go to [https://github.com/](https://github.com/) and click "Sign up"
 
 ---
 background-image: url(img/github_account_2.png)
