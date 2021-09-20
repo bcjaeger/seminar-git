@@ -12,8 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: inverse, center, middle
-
+class: center, middle
 
 ```{r setup, include=FALSE}
 
@@ -29,6 +28,15 @@ style_duo_accent(
 )
 
 ```
+
+# HELLO
+
+---
+
+background-image: url(img/run_R_kids.png)
+background-size: 100%
+
+---
 
 # DISCLAIMER
 
@@ -115,7 +123,7 @@ Git has been 'repurposed' by data scientists for managing activities other than 
 
     + [NY Times COVID-19 data](https://github.com/nytimes/covid-19-data)
 
-Git is without any doubt the best system for _collaboration_.
+Git is a robust and helpful system for _collaboration_.
 
 ???
 
@@ -130,9 +138,7 @@ background-image: url(img/Linus_Torvalds_2.jpg)
 background-size: 100%
 class: left, middle, inverse
 
-# How it<br>feels to <br>use git
-
-(sometimes...)
+# Git is<br>unfriendly
 
 ???
 
