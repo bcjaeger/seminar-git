@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 ## (and Rstudio)
 ### Byron C. Jaeger
 ### Wake Forest School of Medicine
-### 2021-09-28 (updated: 2021-09-20)
+### 2021-09-28 (updated: 2021-09-21)
 
 ---
 
@@ -24,9 +24,16 @@ class: center, middle
 
 &lt;style type="text/css"&gt;
 
-.red { color: red; }
+.blue { color: DodgerBlue; }
 
 .larger { font-size: 160px; }
+
+.largish {font-size: 40px; }
+
+.blue_background { 
+  font-size: 40px;
+  background-color: rgba(30,144,255, 0.1); 
+}
 
 &lt;/style&gt;
 
@@ -98,7 +105,7 @@ class: inverse, center, middle
 ---
 class: middle 
 
-# Git is a __version control system__
+# Git is a .blue[version control system]
 
 - It is an application that runs on your computer, just like Microsoft Word or Google Chrome.
 
@@ -112,7 +119,7 @@ class: inverse, center, middle
 ---
 class: middle
 
-# Git manages the evolution of a set of files 
+# Git manages the evolution of a set of files (.blue[repository])
 
 Imagine “Track Changes” from Microsoft Word on a whole directory instead of just one file.
 
@@ -161,28 +168,146 @@ managing highly relevant data sets:
 ---
 class: inverse, center, middle
 
-# .larger[How is&lt;br/&gt;Git for&lt;br/&gt;beginners]
+# .larger[Git for&lt;br/&gt;beginners]
 
 ---
 background-image: url(img/Linus_Torvalds_2.jpg)
 background-size: 100%
 class: left, middle, inverse
 
-# .larger[Git is&lt;br&gt;unfriendly]
+# .larger[is&lt;br&gt;unfriendly]
 
 ---
-class: middle, center
-
-# [But then why use it?](https://speakerdeck.com/alicebartlett/git-for-humans?slide=19)
-
-.footnote[clicking the link on this slide should take you to Alice Bartlett's talk: Git for Humans, slide 19]
+background-image: url(img/git_terminal.png)
+background-size: 100%
 
 ---
-class: middle, center
+class: center, middle, inverse
 
-# GitHub Organization: [jhs-hwg](https://github.com/jhs-hwg)
+# .larger[JARGON]
 
 ---
+class: center, middle
+
+# Wait, should I even use this?
+
+# (Yes, here is why)
+
+---
+class: inverse, center, middle
+
+# .larger[Git lets you tell the story of your project]
+
+---
+class: middle
+
+# Git takes snapshots of all the files in a folder
+
+# This folder is called a .blue[repository] or .blue[repo]
+
+---
+
+class: middle
+
+# When you want to take a snapshot of a file or files, you create a .blue[commit].
+
+---
+background-image: url(img/file_management_1.png)
+
+---
+background-image: url(img/file_management_2.png)
+
+---
+background-image: url(img/file_management_3.png)
+
+---
+background-image: url(img/file_management_4.png)
+
+---
+background-image: url(img/file_management_5.png)
+
+---
+background-image: url(img/file_management_6.png)
+
+---
+background-image: url(img/file_management_7.png)
+
+---
+class: center, middle
+
+# When you .blue[commit] a file or set of files,&lt;br&gt;Git will save some information automatically.
+
+---
+class: left, middle
+
+# 1. Who
+
+# 2. When
+
+---
+
+class: center, middle
+
+# You can add more information about the changes you made with a .blue[commit message].
+
+---
+class: left, middle
+background-color: #bcdeff
+
+.largish[__Prevent factor coercion__ &lt;br&gt;&lt;br&gt;]
+
+.largish[_Character vectors may be automatically converted to factors by some data import functions. Our data management directly changes character values in the vectors (creating `NA` factor values), so we are delaying conversion to factors until the modeling phase._]
+
+---
+
+# Hmm?
+
+(Even though it's a Git presentation, you should know this about R)
+
+
+```r
+chr &lt;- c("A", "B", "C")
+
+f &lt;- factor(chr)
+
+f[2] &lt;- "D"
+
+f
+```
+
+```
+## [1] A    &lt;NA&gt; C   
+## Levels: A B C
+```
+
+
+---
+class: left, middle
+background-color: #e8bdbd
+
+.largish[__Prevent factor coercion__ &lt;br&gt;&lt;br&gt;]
+
+.largish[set `stringsAsFactors = FALSE`]
+
+---
+background-image: url(img/file_management_just_a_name.png)
+background-size: 90%
+
+---
+background-image: url(img/file_management_8.png)
+
+---
+background-image: url(img/file_management_9.png)
+
+---
+background-image: url(img/file_management_10.png)
+
+---
+background-image: url(img/file_management_11.png)
+
+---
+
+
 background-image: url(img/github_account_1.png)
 background-position: 50% 70%
 
@@ -275,11 +400,11 @@ layout: false
 class: center, middle
 
 
-# Yes! 
+# Yay! 
 
 ## You completed your first pull request!
 
-# Snazzy work!
+# Great work!
 
 
 
