@@ -14,6 +14,15 @@ output:
 ---
 class: center, middle
 
+```{css, echo=FALSE}
+
+.red { color: red; }
+
+.larger { font-size: 160px; }
+
+```
+
+
 ```{r setup, include=FALSE}
 
 options(htmltools.dir.version = FALSE)
@@ -29,7 +38,9 @@ style_duo_accent(
 
 ```
 
-# HELLO
+# .larger[HELLO]
+
+My name is Byron
 
 ---
 
@@ -37,28 +48,13 @@ background-image: url(img/run_R_kids.png)
 background-size: 100%
 
 ---
+class: center, middle, inverse
 
-# DISCLAIMER
-
----
-
-#1. Presentation is an advertisement
-
-I am giving a talk in the American Statistical Association's Statistical Learning and Data Science Section on Tuesday September 28 from 1:00 - 2:30pm eastern time. 
-
---
-
-This 20m talk is a peak into the 90m seminar. I hope this talk will interest you and encourage you to register for the seminar. 
-
---
-
-Registration is free and available at https://www.eventbrite.com/e/asa-slds-webinar-tickets-168985071899.
+# .larger[DISCLAIMERS]
 
 ---
 
-# 1. Presentation is unoriginal
-
-I am recycling materials from:
+# I am recycling materials
 
 --
 
@@ -83,80 +79,101 @@ I am recycling materials from:
 Why? Because these materials are _fantastic_. Don't re-invent the wheel.
 
 ---
+class: middle, center 
 
-# 2. I am no expert
-
-- I have used git and GitHub for years, and I am incredibly grateful for it.
-
-- But I am only familiar with the basics.
-
-- $\Rightarrow$ _anyone_ can learn the basics and benefit from it.
+# I am a 'basic' git user
 
 ---
 class: inverse, center, middle
 
-# GIT
+# .larger[GIT]
+
+---
+background-image: url(img/git_book.png)
+background-size: contain
+background-position: 50% 65%
+
+# Happy Git with R by Jenny Bryan
+
+---
+class: inverse, center, middle
+
+# .larger[What is Git]
+
+---
+class: middle 
+
+# Git is a __version control system__
+
+- It is an application that runs on your computer, just like Microsoft Word or Google Chrome.
+
+- Its original purpose was to help groups of developers work collaboratively on big software projects. 
+
+---
+class: inverse, center, middle
+
+# .larger[What does<br/>Git do]
+
+---
+class: middle
+
+# Git manages the evolution of a set of files 
+
+Imagine “Track Changes” from Microsoft Word on a whole directory instead of just one file.
+
+---
+class: inverse, center, middle
+
+# .larger[Who made Git?]
 
 ---
 background-image: url(img/Linus_Torvalds_1.jpg)
-class: left, top, inverse
-
-# Who<br>made<br>git?
-
-???
-
-Git is a version control system written by Linus Torvalds, who is also known for developing Linux.
-
-Git was designed in part to help manage development of the Linux kernel, which is probably very different from what myself and other data scientists use it for.
-
-For data scientists, git seems to have 10 times more tools than we need, and also seems to be missing some important tools that we really want. 
-
-Strangely enough, git is still our best option for version control.
 
 ---
+class: inverse, center, middle
 
-# Git for data science
+# .larger[Git for<br/>data science]
 
-Git has been 'repurposed' by data scientists for managing activities other than software development.
+---
+# Git for Data Science
 
-- writing code to clean, merge, reshape, or analyze data (wrangling).
+Git has been 'repurposed' for managing<sup>1</sup> activities other than software development:
 
-    + [My NHANES starter kit](https://github.com/bcjaeger/NHANES-starter-kit)
+--
 
-- writing blogs, books, or scientific articles in an open setting.
+managing code to clean, merge, reshape, or analyze data (wrangling).
 
-    + [R for Data Science by Hadley Wickham](https://github.com/hadley/r4ds)
+- [My NHANES starter kit](https://github.com/bcjaeger/NHANES-starter-kit)
+
+- [INTERMACS ML imputation](https://github.com/bcjaeger/INTERMACS-imputation-ML)
+
+--
+
+managing blogs, books, or scientific articles in an open setting.
+
+- [R for Data Science by Hadley Wickham](https://github.com/hadley/r4ds)
     
-    + [Advanced R by Hadley Wickham](https://github.com/hadley/adv-r)
+- [Advanced R by Hadley Wickham](https://github.com/hadley/adv-r)
 
-- sharing an "end-to-end" project in an open setting.
+--
 
-    + [INTERMACS ML imputation](https://github.com/bcjaeger/INTERMACS-imputation-ML)
-    
-- sharing highly relevant data sets:
+managing highly relevant data sets:
 
-    + [NY Times COVID-19 data](https://github.com/nytimes/covid-19-data)
+- [NY Times COVID-19 data](https://github.com/nytimes/covid-19-data)
 
-Git is a robust and helpful system for _collaboration_.
+.footnote[<sup>1</sup> Git manages, GitHub shares]
 
-???
+---
+class: inverse, center, middle
 
-Its hard to justify the benefit of git if you work alone, but if you work with other data scientists you will feel a great joy from using git. 
-
-Managing the motley crew of files that go along with data science is incredibly hard using standard conventions. If you use the rigid structure of git to manage those files, you will win a lot of battles just by design.
-
-Don't get too worried about public repositories. There are suitable remotes with privacy, like GitLab instead of GitHub.
+# .larger[How is<br/>Git for<br/>beginners]
 
 ---
 background-image: url(img/Linus_Torvalds_2.jpg)
 background-size: 100%
 class: left, middle, inverse
 
-# Git is<br>unfriendly
-
-???
-
-It may seem like this is how Linus feels about git users because the interface is difficult to learn. 
+# .larger[Git is<br>unfriendly]
 
 ---
 class: middle, center
