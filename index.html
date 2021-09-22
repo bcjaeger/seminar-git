@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 ## (and Rstudio)
 ### Byron C. Jaeger
 ### Wake Forest School of Medicine
-### 2021-09-28 (updated: 2021-09-21)
+### 2021-09-28 (updated: 2021-09-22)
 
 ---
 
@@ -191,7 +191,10 @@ class: center, middle
 
 # Wait, should I even use this?
 
-# (Yes, here is why)
+---
+class: inverse, center, middle
+
+# .larger[Yes&lt;br&gt;I'll give you 5 reasons why]
 
 ---
 class: inverse, center, middle
@@ -213,27 +216,28 @@ class: middle
 
 ---
 background-image: url(img/file_management_1.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_2.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_3.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_4.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_5.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_6.png)
-
+background-size: 100%
 ---
 background-image: url(img/file_management_7.png)
+background-size: 100%
 
 ---
-class: center, middle
+class: left, middle
 
 # When you .blue[commit] a file or set of files,&lt;br&gt;Git will save some information automatically.
 
@@ -260,7 +264,7 @@ background-color: #bcdeff
 
 ---
 
-# Hmm?
+# Wait, `NA` factor values?
 
 (Even though it's a Git presentation, you should know this about R)
 
@@ -291,22 +295,188 @@ background-color: #e8bdbd
 
 ---
 background-image: url(img/file_management_just_a_name.png)
+background-size: 80%
+---
+background-image: url(img/file_management_8.png)
+background-size: 100%
+---
+background-image: url(img/file_management_9.png)
+background-size: 100%
+---
+background-image: url(img/file_management_10.png)
+background-size: 100%
+---
+background-image: url(img/file_management_11.png)
+background-size: 100%
+
+---
+class: left, middle
+
+# .blue[Repository] - your project folder
+
+# .blue[Commit] - save a snapshot
+
+---
+class: inverse, center, middle
+
+# .larger[Git lets you time travel]
+
+---
+class: left, middle
+
+# Once you've saved some snapshots of your repository, git lets you travel through them
+
+---
+background-image: url(img/file_management_12.png)
+background-size: 90%
+
+# Git stores the whole history of your project
+
+---
+background-image: url(img/file_management_13.png)
+background-size: 90%
+
+# Each of these commits has an identifier called a .blue[hash]
+
+---
+
+class: left, middle
+
+# Getting the files from a commit in the past is known as doing a .blue[check out]
+
+---
+background-image: url(img/file_management_14.png)
+background-size: 90%
+
+# I can tell Git what commit I want to check out using the commit hash.
+
+---
+background-image: url(img/file_management_15.png)
+background-size: 90%
+
+# I can tell Git what commit I want to check out using the commit hash.
+
+---
+background-image: url(img/file_management_15.png)
+background-size: 90%
+
+# My other commits still exist, but when I look in my repo, it's like they never happened
+
+---
+class: left, middle
+
+# .blue[hash] - a computer generated id
+
+# .blue[check out] - time travel to a specific commit
+
+---
+class: inverse, center, middle
+
+# .larger[Git lets you experiment]
+
+---
+class: left, middle
+
+# So far, everything has been linear and neat.
+
+---
+class: left, middle
+
+# This isn't really how projects develop.
+
+# Sometimes you want to experiment.
+
+# Sometimes your experiments don't work.
+
+---
+class: left, middle
+
+# In Git, you can create easily discardable experiments with .blue[branches]
+
+---
+class: left, middle
+
+# A .blue[branch] is a moveable label attached to a single commit
+
+---
+background-image: url(img/file_management_16.png)
+background-size: 100%
+
+# The default branch name in git is .blue[master]
+
+---
+background-image: url(img/file_management_17.png)
+background-size: 100%
+
+# You can add your own branches too
+
+---
+background-image: url(img/file_management_18.png)
+background-size: 100%
+
+# A user will often do a lot of work on a branch
+
+---
+background-image: url(img/file_management_19.png)
+background-position: 50% 60%
+background-size: 100%
+
+---
+class: left, middle
+
+# Branches are useful for trying things out.
+
+# They are easy to throw away if you don't like the changes.
+
+---
+class: left, middle
+
+# Once projects are up and running, most development is done in branches.
+
+# The master branch is the 'live' version.
+
+---
+class: left, middle
+
+# When you are happy with the changes you made in a branch, you need a way to get those changes back into the master branch.
+
+---
+background-image: url(img/file_management_20.png)
+background-position: 50% 70%
+background-size: 100%
+
+# To get changes from one branch into another, you .blue[merge] them.
+
+---
+
+background-image: url(img/merge.gif)
 background-size: 90%
 
 ---
-background-image: url(img/file_management_8.png)
+background-image: url(img/file_management_21.png)
+background-position: 50% 70%
+background-size: 100%
+
+# So, this commit combines all the commits from both branches.
 
 ---
-background-image: url(img/file_management_9.png)
+class: left, middle
+
+# .blue[branch] - a moveable label that points to a commit
+
+# .blue[merge] - the combination of commits from two or more branches
+
+
+
+
+
+
+
+
+
+
 
 ---
-background-image: url(img/file_management_10.png)
-
----
-background-image: url(img/file_management_11.png)
-
----
-
 
 background-image: url(img/github_account_1.png)
 background-position: 50% 70%
@@ -400,11 +570,11 @@ layout: false
 class: center, middle
 
 
-# Yay! 
+# Yes! 
 
 ## You completed your first pull request!
 
-# Great work!
+# Outstanding work!
 
 
 
