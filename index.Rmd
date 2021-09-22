@@ -467,9 +467,48 @@ class: left, middle
 
 # .blue[merge] - the combination of commits from two or more branches
 
+---
+class: inverse, center, middle
+
+# .larger[Git helps you back up your work]
+
+---
+class: left, middle
+
+# Everyone knows you should back up your work regularly.
+
+---
+class: left, middle
+
+# Ideally, to somewhere that is not the same place as your computer.
+
+---
+background-image: url(img/file_management_22.png)
+background-size: 100%
+
+---
+class: left, middle
+
+# Safer
+
+# Access from different places
+
+# Shared 
+
+---
+class: left, middle
+
+# In Git this place is called a .blue[remote]
+
+---
+background-image: url(img/github_logo.png)
+background-size: cover
 
 
+---
+class: left, middle
 
+# To get some work from a repository stored in a remote for the first time, the first thing you do is .blue[clone] the 
 
 
 
