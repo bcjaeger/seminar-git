@@ -14,9 +14,9 @@
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="file_management_2.svg"
-   inkscape:export-filename="D:\byron_uab_backup\seminar - git\img\file_management_1.png"
-   inkscape:export-xdpi="111.4055"
-   inkscape:export-ydpi="111.4055">
+   inkscape:export-filename="D:\byron_uab_backup\seminar - git\img\file_management_2.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs2">
     <pattern
@@ -71,7 +71,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="316.32433"
-     inkscape:cy="307.15982"
+     inkscape:cy="347.56592"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
