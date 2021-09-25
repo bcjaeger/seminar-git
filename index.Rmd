@@ -449,16 +449,16 @@ background-size: 100%
 # To get changes from one branch into another, you .blue[merge] them.
 
 ---
-
-background-image: url(img/merge.gif)
-background-size: 90%
-
----
 background-image: url(img/file_management_21.png)
 background-position: 50% 70%
 background-size: 100%
 
 # So, this commit combines all the commits from both branches.
+
+---
+background-image: url(img/merge.gif)
+background-size: 90%
+
 
 ---
 class: left, middle
@@ -508,66 +508,223 @@ background-size: cover
 ---
 class: left, middle
 
-# To get some work from a repository stored in a remote for the first time, the first thing you do is .blue[clone] the 
+# To get some work from a repository stored in a remote for the first time, the first thing you do is .blue[clone] the repository.
+
+---
+background-image: url(img/file_management_23.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_24.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_25.png)
+background-size: 100%
+
+---
+class: middle, right
+background-image: url(img/file_management_26.png)
+background-size: 100%
+
+# Now everyone<br>has the repo on<br>their computer
+
+---
+class: middle, right
+background-image: url(img/file_management_27.png)
+background-size: 100%
+
+---
+class: middle, right
+background-image: url(img/file_management_28.png)
+background-size: 100%
+
+# Ligong can send<br>his changes to<br>the remote
+
+---
+class: middle, right
+background-image: url(img/file_management_28.png)
+background-size: 100%
+
+# this is known<br>as a .blue[push]
+
+---
+class: bottom, right
+background-image: url(img/file_management_29.png)
+background-size: 100%
 
 
+---
+class: bottom, right
+background-image: url(img/file_management_32.png)
+background-size: 100%
+
+# Now Shakia's<br>repo is behind<br>the remote.
+
+---
+class: bottom, right
+background-image: url(img/file_management_32.png)
+background-size: 100%
+
+# To get these<br>changes, Shakia<br>can .blue[pull] them
+
+---
+class: bottom, right
+background-image: url(img/file_management_33.png)
+background-size: 100%
+
+---
+class: left, middle
+
+# .blue[clone] - copy a repository from a remote location to your local computer.
+
+# .blue[push] - send your local commit(s) to your remote
+
+# .blue[pull] - copy the most recent version of the remote to your local computer (merge conflicts can happen).
+
+---
+class: left, middle
+
+# When you clone a repository, you attempt to push and pull commits to the remote
+
+# What could go wrong?
+
+---
+background-image: url(img/too_many_cooks.png)
+background-size: cover
+
+---
+class: left, middle
+
+# Instead of cloning someone else's repo, you can .blue[fork] the repo.
+
+---
+class: left, middle
+
+# When you .blue[fork] a repo, you create a copy of it on your GitHub account. (this is not a clone) 
+
+# Now you have a remote you can clone and commit changes to.
+
+# This positions you to request that the repo owner to merge a branch of your forked repo into their master branch, i.e., a .blue[pull request].
+
+---
+background-image: url(img/fork-and-clone_1.png)
+background-size: 100%
+
+---
+background-image: url(img/fork-and-clone_2.png)
+background-size: 100%
+
+---
+background-image: url(img/fork-and-clone_3.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_34.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_35.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_36.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_37.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_38.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_39.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_40.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_41.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_42.png)
+background-size: 100%
+
+---
+background-image: url(img/file_management_43.png)
+background-size: 100%
 
 
+---
+class: inverse, middle, center
 
-
+# .larger[Git is a lot. Where should<br>I start?]
 
 ---
 
 background-image: url(img/github_account_1.png)
 background-position: 50% 70%
+background-size: 80%
 
-# Where to start?
-
-Go to [https://github.com/](https://github.com/) and click "Sign up"
+# Go to [https://github.com/](https://github.com/) and click "Sign up"
 
 ---
 background-image: url(img/github_account_2.png)
-background-size: 75%
+background-size: cover
 
 ---
 layout: true
-background-size: 75%
-background-position: 40% 65%
-# Make a pull request
+background-size: 85%
+background-position: 40% 50%
+---
+class: inverse, center, middle
+
+# .larger[Make a pull request]
+
 ---
 background-image: url(img/github_account_3.png)
 
-Go to [my GitHub](https://github.com/bcjaeger)
+# Go to [my GitHub](https://github.com/bcjaeger)
 
 ---
 background-image: url(img/github_account_4.png)
 
-Click 'Repositories' near the top of the page
+# Click 'Repositories' near the top of the page
 
 ---
 background-image: url(img/github_account_5.png)
 
-Search for 'seminar-git' (it may be at the top of the list already)
+# Search 'seminar-git' (maybe already at top)
 
 ---
 background-image: url(img/github_account_6.png)
 
-Click on the 'seminar-git' repository
+# Click on the 'seminar-git' repository
 
 ---
 background-image: url(img/github_account_7.png)
 
-Click on the index.Rmd file (code that made this presentation)
+# Click on index.Rmd (don't click index.html)
 
 ---
 background-image: url(img/github_account_8.png)
 
-Click the pencil to fork the project and edit this file in your own branch.
+# Click the pencil to .blue[fork] the repo
+
+---
+background-image: url(img/github_account_8.png)
+
+# a .blue[fork] is a clone that lives on GitHub
 
 ---
 background-image: url(img/github_account_9.png)
 
-If you see a screen like this, you are in the right place!
+# If you see this, you are in the right place!
 
 ---
 
