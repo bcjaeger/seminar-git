@@ -27,6 +27,12 @@ class: center, middle
   background-color: rgba(30,144,255, 0.1); 
 }
 
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 ```
 
 
@@ -730,25 +736,23 @@ class: left, middle
 ---
 background-image: url(img/github_account_10.png)
 
-Scroll down in the code until you see this text.
+# Scroll down to about here.
 
 ---
 background-image: url(img/github_account_11.png)
 
-Add your own adjectives and exclamations. Remember that your name is attached to what you write...
+# Add your own adjectives or exclamations
 
 ---
 background-image: url(img/github_account_12.png)
 
-Give your pull request a title and, if needed, a description. 
-Click propose changes to continue (not done yet).
+# Document, then click propose changes
 
 
 ---
 background-image: url(img/github_account_13.png)
 
-Review your pull request before clicking 'create pull request'
-
+# Review, then click 'create pull request'
 
 ---
 
@@ -772,11 +776,103 @@ adjective <- c("Awesome",
 
 ```
 
-# `r sample(exclamation, 1)`! 
+# .larger[`r sample(exclamation, 1)`!]
 
-## You completed your first pull request!
+# You completed your first pull request!
 
-# `r sample(adjective, 1)` work!
+# .rainbow-text[`r sample(adjective, 1)` work!]
 
+---
+class: inverse, middle, center
 
+# .larger[Make a repo on GitHub]
 
+---
+background-image: url(img/github_account_14.png)
+background-size: 90%
+
+# click 'Repositories' on your profile page
+
+---
+
+background-image: url(img/github_account_15.png)
+background-size: 90%
+
+# click 'new'
+
+---
+
+background-image: url(img/github_account_16.png)
+background-size: 70%
+
+# Name your repo
+
+---
+
+background-image: url(img/github_account_17.png)
+background-size: 70%
+
+# Give it a description
+
+---
+background-image: url(img/github_account_18.png)
+background-size: 70%
+
+# Make it public or private
+
+---
+background-image: url(img/github_account_19.png)
+background-size: 70%
+
+# Initialize with a README file
+
+---
+background-image: url(img/github_account_20.png)
+background-size: 70%
+
+# Click 'Create  repository'
+
+---
+background-image: url(img/github_account_21.png)
+background-size: 90%
+
+# You did it!
+
+---
+
+# .larger[Questions?]
+
+---
+class: middle, center
+
+# .larger[.rainbow-text[BONUS ROUND]]
+
+---
+background-image: url(img/usethis_logo.png)
+
+---
+background-image: url(img/usethis_logo.png)
+background-size: 30%
+background-position: 47.5% 13%
+
+# .larger[Demo]
+
+# Create a project that uses Git and GitHub
+# Create a project from GitHub (fork and clone)
+# Initiate pull requests!
+
+---
+
+# .larger[Create]
+
+# `create_project()`
+# `use_git()`
+# `use_github()`
+
+---
+
+# .larger[Fork & clone]
+
+# `create_from_github()`
+# `pr_init()`
+# `pr_finish()`
