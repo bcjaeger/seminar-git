@@ -97,10 +97,24 @@ class: middle, center
 # I am a 'basic' git user
 
 ---
+class: inverse, middle, center
 
-<iframe src="https://app.sli.do/event/hvo96l22" height="90%" width="110%" frameBorder="0" style="min-height: 560px;" title="Slido"></iframe>
+# .larger[Tell me<br>about you]
 
 ---
+
+<iframe src="https://app.sli.do/event/hvo96l22" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Happier version control with Git and GitHub"></iframe>
+
+---
+
+<iframe src="https://app.sli.do/event/2l0benjw" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Happier version control with Git and GitHub"></iframe>
+
+---
+
+<iframe src="https://app.sli.do/event/g4eliw1h" height="90%" width="100%" frameBorder="0" style="min-height: 560px;" title="Happier version control with Git and GitHub"></iframe>
+
+---
+
 class: inverse, center, middle
 
 # .larger[GIT]
@@ -152,33 +166,15 @@ class: inverse, center, middle
 # .larger[Git for<br/>data science]
 
 ---
-# Git for Data Science
+class: left, middle
 
-Git has been 'repurposed' for managing<sup>1</sup> activities other than software development:
+# Git (with the help of GitHub) has been repurposed for activities other than software development, such as
 
---
+# [writing books](https://github.com/hadley/r4ds)
 
-managing code to clean, merge, reshape, or analyze data (wrangling).
+# [managing personal websites](https://github.com/rbind/apreshill)
 
-- [My NHANES starter kit](https://github.com/bcjaeger/NHANES-starter-kit)
-
-- [INTERMACS ML imputation](https://github.com/bcjaeger/INTERMACS-imputation-ML)
-
---
-
-managing blogs, books, or scientific articles in an open setting.
-
-- [R for Data Science by Hadley Wickham](https://github.com/hadley/r4ds)
-    
-- [Advanced R by Hadley Wickham](https://github.com/hadley/adv-r)
-
---
-
-managing highly relevant data sets:
-
-- [NY Times COVID-19 data](https://github.com/nytimes/covid-19-data)
-
-.footnote[<sup>1</sup> Git manages, GitHub shares]
+# [writing scientific articles](https://github.com/bcjaeger/ACC-AHA-BP-guideline-groups)
 
 ---
 class: inverse, center, middle
