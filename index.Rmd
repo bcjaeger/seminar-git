@@ -94,7 +94,7 @@ Why? Because these materials are _fantastic_. Don't re-invent the wheel.
 ---
 class: middle, center 
 
-# I am a 'basic' git user
+# I know the basics of git, and that is about it!
 
 ---
 class: inverse, middle, center
