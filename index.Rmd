@@ -626,10 +626,6 @@ background-image: url(img/file_management_34.png)
 background-size: 100%
 
 ---
-background-image: url(img/file_management_35.png)
-background-size: 100%
-
----
 background-image: url(img/file_management_36.png)
 background-size: 100%
 
