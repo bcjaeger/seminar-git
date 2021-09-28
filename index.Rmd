@@ -759,6 +759,7 @@ exclamation <- c("WOOOOOO",
                  "Yay",
                  "YeeHAW",
                  "You DID IT",
+                 "Cool",
                  "WOW",
                  "great")
 
