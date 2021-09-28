@@ -769,6 +769,7 @@ adjective <- c("Awesome",
                "Outstanding",
                "Amazing",
                "Terrific",
+               "Wonderful",
                "Excellent")
 
 ```
