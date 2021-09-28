@@ -758,8 +758,8 @@ exclamation <- c("WOOOOOO",
                  "Yes",
                  "Yay",
                  "YeeHAW",
-                 "You DID IT",
-                 "WOW")
+                 "You DID IT"
+                 "Cool")
 
 adjective <- c("Awesome",
                "Great",
