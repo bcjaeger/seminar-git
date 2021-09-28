@@ -585,6 +585,11 @@ class: left, middle
 # .blue[pull] - copy the most recent version of the remote to your local computer (merge conflicts can happen).
 
 ---
+class: inverse, center, middle
+
+# .larger[Git helps you collaborate]
+
+---
 class: left, middle
 
 # When you clone a repository, you attempt to push and pull commits to the remote
