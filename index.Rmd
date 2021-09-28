@@ -759,15 +759,28 @@ exclamation <- c("WOOOOOO",
                  "Yay",
                  "YeeHAW",
                  "You DID IT",
-                 "Difficult")
+                 "Amazing",
+                 "YAAASSS!",
+                 "Yipee",
+                 "Great job!",
+                 "Cool",
+                 "WOW",
+                 "great")
+
 
 adjective <- c("Awesome",
                "Great",
+               "Smelly",
                "Snazzy",
+               "Excellent",
                "Outstanding",
                "Amazing",
                "Terrific",
-               "Confused")
+               "Strong",
+               "Spectacular",
+               "Superb",
+               "Wonderful",
+               "Excellent")
 
 ```
 
