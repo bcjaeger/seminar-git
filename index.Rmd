@@ -755,6 +755,7 @@ class: center, middle
 
 exclamation <- c("WOOOOOO",
                  "Hurray",
+                 "Fanstastic",
                  "Yes",
                  "Yay",
                  "YeeHAW",
